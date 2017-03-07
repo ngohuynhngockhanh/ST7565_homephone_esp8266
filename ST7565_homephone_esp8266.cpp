@@ -7,7 +7,7 @@ ST7565 LCD library!
 Copyright (C) 2016 SON
 // some of this code was written by <cstone@pobox.com> originally; it is in the public domain.
  Developed by Phùng Thái Sơn - 1996- Hà Nam
-Supported by Nguyễn Mạnh Hoạch, Phùng Thái Hải.
+Supported by Nguyễn Mạnh Hoạch, Phùng Thái Hải, Ngô Huỳnh Ngọc Khánh
 Mât rất nhiều thời gian và công sức cho bộ thư viện này
 Mình đã chú thích khá đầy đủ trong quá trình viết code
 Nếu bạn đã vào phần này, hãy bỏ chút thời gian tham khảo (có nhiều cái hay)và phát triển bộ thư viện này nhé.
@@ -58,9 +58,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 #endif
 
 
-#include <stdlib.h>
-#include <glcdfont.c>
-#include "ST7565_homephone.h"
+#include "stdlib.h"
+#include "glcdfont.c"
+#include "ST7565_homephone_esp8266.h"
 
 
 uint8_t is_reversed = 0;
